@@ -1,12 +1,20 @@
-<!-- Nav bar -->
-<nav class="flex justify-between bb b--white-10 bg-light-red w-100 avenir pl3">
-  <div class="pa3 items-center w-100">
-    <div class="fr">
-      <a routerLink="/" class="f7 link di white dim mr3 mr4-ns">About</a>
-      <a routerLink="/projects" class="f7 link di white dim mr3 mr4-ns">Projects</a>
-      <a routerLink="/education" class="f7 link di white dim mr3 mr4-ns">Education</a>
-      <a routerLink="/experience" class="f7 link di white dim mr3 mr4-ns">Experience</a>
-      <a href="assets/images/resume.pdf" class="f7 link di white dim mr3 mr4-ns" target="_blank">Resume</a>
-    </div>
+<nav class="default" role="navigation">
+  <div class="nav-wrapper justify-between bb b--white-10-text bg-light-red w-100 avenir pl3">
+    <a href="#" data-activates="mobile-demo" class="button-collapse sidenav-trigger" materialize = "sideNav"><i class="material-icons">menu</i></a>
+    <ul id='nav-mobile' class="right hide-on-med-and-down">
+      <li><a routerLink="/" class="f5 link di white-text mr3 mr4-ns">About</a></li>
+      <li><a routerLink="/projects" class="f5 link di white-text mr3">Projects</a></li>
+      <li><a routerLink="/education" class="f5 link di white-text mr3">Education</a></li>
+      <li><a routerLink="/experience" class="f5 link di white-text mr3 fr">Experience</a></li>
+      <li><a href="assets/images/Namratha_Prabhu_Resume.pdf" class="f5 link di white-text mr3 tr" target="_blank">Resume</a></li>
+    </ul>
   </div>
 </nav>
+
+<ul class="side-nav pt4 teal lighten-2" id="mobile-demo">
+  <li><a routerLink="/" class="f2 b link di white-text mr3 dim mr4-ns">About</a></li>
+  <li><a routerLink="/projects" class="f4 b link di white-text dim mr3 mr4-ns">Projects</a></li>
+  <li><a routerLink="/education" class="f4 b link di white-text dim mr3 mr4-ns">Education</a></li>
+  <li><a routerLink="/experience" class="f4 b link di white-text dim mr3 mr4-ns">Experience</a></li>
+  <li><a href="assets/images/Namratha_Prabhu_Resume.pdf" class="f4 b link di white-text dim mr3 mr4-ns" target="_blank">Resume</a></li>
+</ul>
